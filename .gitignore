@@ -15,9 +15,8 @@ $RECYCLE.BIN/
 [Rr]elease/
 [Bb]in/
 [Oo]bj/
-src/[Pp]ackages/
+[Pp]ackages/
 
-src/UmbracoBookshelf/
 
 node_modules
 
