@@ -21,7 +21,7 @@ namespace TestMvc2
 
         public void _checkMigrations()
         {
-            var versionAppsettingKey = "MyApp:Version";
+            var versionAppsettingKey = "MyApp:DbVersion";
 
             var dllVersion = MigrationHelper.GetDllVersion();
 
