@@ -37,7 +37,7 @@ namespace TestMvc2.Tests
         }
 
         [Test]
-        public void Can_Migrate_To_One_Zero_Zero()
+        public void Can_Migrate_To_Zero_One_Zero()
         {
             //assert table exists
             using (var uow = new PetaPocoUnitOfWork())
