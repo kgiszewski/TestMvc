@@ -61,27 +61,5 @@ version
 commit-hash
 dummy.txt
 
-src/*.Umbraco/App_Data/ClientDependency/
-src/*.Umbraco/App_Data/ExamineIndexes/
-src/*.Umbraco/App_Data/Logs/
-src/*.Umbraco/App_Data/TEMP/
-src/*.Umbraco/App_Data/preview/
-src/*.Umbraco/App_Data/cache
-src/*.Umbraco/App_Data/NuGet*
-src/*.Umbraco/App_Data/umbraco.config
-src/*.Umbraco/aspnet_client/
-src/*.Umbraco/media/
-src/*.Umbraco/imagecache/
-src/*.Umbraco/install/
-src/*.Umbraco/umbraco/
-!src/*.Umbraco/umbraco/Images
-!src/*.Umbraco/umbraco/Plugins
-src/*.Umbraco/umbraco_client/
-src/*.Umbraco/uSync.Archive/
-src/*.Umbraco/digital-signage/
-
 *[Rr]e[Ss]harper.user
 _ReSharper.*/
-
-src/*.Umbraco/css/application.css
-src/*.Umbraco/js/application.js
