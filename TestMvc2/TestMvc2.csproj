@@ -178,11 +178,14 @@
     <Compile Include="Controllers\FooController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TrackingPixelController.cs" />
     <Compile Include="DAL\PetaPocoExtensions.cs" />
     <Compile Include="DAL\PetaPocoUnitOfWork.cs" />
+    <Compile Include="DAL\TrackingPixelRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\IpHelper.cs" />
     <Compile Include="Migrations\IMigration.cs" />
     <Compile Include="Migrations\MigrationHelper.cs" />
     <Compile Include="Migrations\TargetVersionOneZeroZeroMigration.cs" />
@@ -197,7 +200,9 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PetaPoco.cs" />
+    <Compile Include="Models\TrackingPixelOpen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\TrackingPixelService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -273,6 +278,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Project_Readme.html" />
