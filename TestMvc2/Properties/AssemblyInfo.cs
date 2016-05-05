@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("TestMvc2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("University of Notre Dame")]
+[assembly: AssemblyCompany("Kevin Giszewski")]
 [assembly: AssemblyProduct("TestMvc2")]
-[assembly: AssemblyCopyright("Copyright © University of Notre Dame 2016")]
+[assembly: AssemblyCopyright("Copyright © Kevin Giszewski 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
