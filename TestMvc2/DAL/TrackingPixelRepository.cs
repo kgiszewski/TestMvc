@@ -28,5 +28,14 @@ namespace TestMvc2.DAL
                 OpenedOn = DateTime.Now,
             });
         }
+
+        public static int GetTotalForCampaignSource(PetaPocoUnitOfWork unitOfWork, string campaign, string source)
+        {
+            return unitOfWork.Database.ExecuteScalar<int>(@"
+                SELECT COUNT(*) AS total
+                FROM TrackingPixelOpens
+                WHERE campaign = @0 AND source = @1
+            ", campaign, source);
+        }
     }
 }

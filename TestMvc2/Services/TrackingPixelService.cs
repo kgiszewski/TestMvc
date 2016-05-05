@@ -14,5 +14,13 @@ namespace TestMvc2.Services
                 uow.Commit();
             }
         }
+
+        public int GetTotalForCampaignSource(string campaign, string source)
+        {
+            using (var uow = new PetaPocoUnitOfWork())
+            {
+                return TrackingPixelRepository.GetTotalForCampaignSource(uow, campaign, source);
+            }
+        }
     }
 }
