@@ -21,7 +21,6 @@ namespace TestMvc2.Services
                 IsBodyHtml = message.IsHtml
             })
             {
-
                 //to
                 mailMessage.To.Add(message.To);
 
@@ -39,8 +38,10 @@ namespace TestMvc2.Services
 
                 mailMessage.Body = message.Body;
 
-                var smtp = new SmtpClient();
-                smtp.Send(mailMessage);
+                using (var smtp = new SmtpClient())
+                {
+                    smtp.Send(mailMessage);
+                }
             }
         }
     }
